@@ -1,0 +1,1159 @@
+2026-09-02T20:09:41.078+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:09:41.079+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:09:41.146+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:09:41.147+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:09:41.148+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:09:41.152+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 71 ms
+2026-09-02T20:09:41.168+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:09:41.213+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:09:41.215+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.174 seconds (process running for 377.661)
+2026-09-02T20:09:41.215+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:10:21.582+08:00  INFO 91231 --- [Demo Spring Boot Application] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-02T20:10:21.582+08:00  INFO 91231 --- [Demo Spring Boot Application] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-02T20:10:21.583+08:00  INFO 91231 --- [Demo Spring Boot Application] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-09-02T20:10:21.587+08:00  INFO 91231 --- [Demo Spring Boot Application] [http-nio-8081-exec-1] s.e.n.s.controllers.SampleController     : Product requested with id 77
+2026-09-02T20:10:21.587+08:00  WARN 91231 --- [Demo Spring Boot Application] [http-nio-8081-exec-1] s.e.n.s.controllers.SampleController     : This is a test warning
+2026-09-02T20:10:21.588+08:00 ERROR 91231 --- [Demo Spring Boot Application] [http-nio-8081-exec-1] s.e.n.s.controllers.SampleController     : This is a test error
+2026-09-02T20:20:39.713+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:20:39.724+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-49] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:20:39.728+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:20:39.776+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:20:39.776+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:20:39.839+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:20:39.840+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:20:39.840+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:20:39.844+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 67 ms
+2026-09-02T20:20:39.857+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:20:39.877+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:20:39.878+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.115 seconds (process running for 1036.324)
+2026-09-02T20:20:39.878+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:20:46.277+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-09-02T20:20:46.279+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-53] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:20:46.280+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:20:46.322+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:20:46.322+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:20:46.389+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:20:46.390+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:20:46.390+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:20:46.393+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 69 ms
+2026-09-02T20:20:46.404+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:20:46.426+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:20:46.428+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.122 seconds (process running for 1042.874)
+2026-09-02T20:20:46.429+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:20:53.829+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:20:53.830+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-57] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:20:53.831+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:20:53.877+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:20:53.878+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:20:53.922+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:20:53.923+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:20:53.923+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:20:53.925+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 46 ms
+2026-09-02T20:20:53.935+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:20:53.958+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:20:53.959+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.093 seconds (process running for 1050.405)
+2026-09-02T20:20:53.959+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:20:55.355+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2026-09-02T20:20:55.357+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-61] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:20:55.358+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:20:55.402+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:20:55.402+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:20:55.458+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:20:55.459+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:20:55.459+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:20:55.461+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 58 ms
+2026-09-02T20:20:55.470+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:20:55.490+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:20:55.491+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.1 seconds (process running for 1051.937)
+2026-09-02T20:20:55.492+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:21:01.890+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-09-02T20:21:01.892+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-65] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:21:01.892+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:21:01.936+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:21:01.937+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:21:01.977+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:21:01.978+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:21:01.978+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:21:01.980+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 43 ms
+2026-09-02T20:21:01.991+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:21:02.011+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:21:02.012+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.086 seconds (process running for 1058.458)
+2026-09-02T20:21:02.013+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:21:08.410+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2026-09-02T20:21:08.411+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-69] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:21:08.413+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:21:08.457+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:21:08.458+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:21:08.501+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:21:08.501+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:21:08.501+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:21:08.505+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 47 ms
+2026-09-02T20:21:08.517+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:21:08.537+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:21:08.538+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.093 seconds (process running for 1064.984)
+2026-09-02T20:21:08.539+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:21:09.942+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:21:09.943+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-73] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:21:09.944+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:21:09.992+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:21:09.993+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:21:10.044+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:21:10.044+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:21:10.044+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:21:10.047+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 53 ms
+2026-09-02T20:21:10.058+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:21:10.087+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:21:10.088+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.108 seconds (process running for 1066.534)
+2026-09-02T20:21:10.089+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:21:15.485+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:21:15.486+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-77] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:21:15.487+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:21:15.524+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:21:15.525+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:21:15.571+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:21:15.572+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:21:15.572+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:21:15.575+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 49 ms
+2026-09-02T20:21:15.584+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:21:15.602+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:21:15.603+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.09 seconds (process running for 1072.049)
+2026-09-02T20:21:15.604+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:21:18.002+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:21:18.003+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-81] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:21:18.003+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:21:18.039+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:21:18.039+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:21:18.083+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:21:18.084+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:21:18.084+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:21:18.087+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 47 ms
+2026-09-02T20:21:18.095+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:21:18.114+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:21:18.115+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.086 seconds (process running for 1074.562)
+2026-09-02T20:21:18.116+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:21:21.513+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:21:21.515+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-85] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:21:21.517+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:21:21.582+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:21:21.583+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:21:21.638+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:21:21.638+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:21:21.638+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:21:21.641+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 57 ms
+2026-09-02T20:21:21.649+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:21:21.669+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:21:21.670+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.104 seconds (process running for 1078.117)
+2026-09-02T20:21:21.671+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:21:46.092+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:21:46.093+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-89] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:21:46.094+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:21:46.148+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:21:46.148+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:21:46.200+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:21:46.201+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:21:46.201+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:21:46.203+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 54 ms
+2026-09-02T20:21:46.211+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/controllers/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.controllers.SampleController]: Constructor threw exception
+2026-09-02T20:21:46.211+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:21:46.215+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:21:46.228+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/controllers/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.controllers.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.controllers.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	SampleItem cannot be resolved to a type
+	SampleItem cannot be resolved to a type
+
+	at sg.edu.ntu.spring_demo.controllers.SampleController.<init>(SampleController.java:24) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-09-02T20:21:47.645+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:21:47.646+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:21:47.694+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:21:47.697+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:21:47.697+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:21:47.700+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 54 ms
+2026-09-02T20:21:47.704+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/controllers/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.controllers.SampleController]: Constructor threw exception
+2026-09-02T20:21:47.704+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:21:47.706+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:21:47.706+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/controllers/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.controllers.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.controllers.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	SampleItem cannot be resolved to a type
+	SampleItem cannot be resolved to a type
+
+	at sg.edu.ntu.spring_demo.controllers.SampleController.<init>(SampleController.java:24) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-09-02T20:21:55.121+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:21:55.121+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:21:55.162+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:21:55.163+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:21:55.163+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:21:55.165+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 43 ms
+2026-09-02T20:21:55.170+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/controllers/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.controllers.SampleController]: Constructor threw exception
+2026-09-02T20:21:55.170+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:21:55.172+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:21:55.173+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/controllers/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.controllers.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.controllers.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	SampleItem cannot be resolved to a type
+	SampleItem cannot be resolved to a type
+
+	at sg.edu.ntu.spring_demo.controllers.SampleController.<init>(SampleController.java:24) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-09-02T20:22:07.994+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:22:07.994+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:22:08.038+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:22:08.039+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:22:08.039+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:22:08.042+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 47 ms
+2026-09-02T20:22:08.048+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController': Lookup method resolution failed
+2026-09-02T20:22:08.048+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:22:08.050+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:22:08.051+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:482) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:352) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1319) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1216) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [sg.edu.ntu.spring_demo.controllers.SampleController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@ad6c360]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:460) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: SampleItem
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-7.0.9.jar:7.0.9]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: SampleItem
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 30 common frames omitted
+
+2026-09-02T20:22:14.467+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:22:14.467+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:22:14.506+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:22:14.507+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:22:14.507+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:22:14.509+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 41 ms
+2026-09-02T20:22:14.513+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController': Lookup method resolution failed
+2026-09-02T20:22:14.514+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:22:14.516+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:22:14.517+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:482) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:352) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1319) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1216) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [sg.edu.ntu.spring_demo.controllers.SampleController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7798be7e]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:460) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: SampleItem
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-7.0.9.jar:7.0.9]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: SampleItem
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 30 common frames omitted
+
+2026-09-02T20:22:16.960+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:22:16.961+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:22:16.974+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [sg.edu.ntu.spring_demo.SpringDemoApplication]
+2026-09-02T20:22:16.982+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [sg.edu.ntu.spring_demo.SpringDemoApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:452) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:316) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:795) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:603) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 0
+	at org.springframework.asm.ClassReader.readUnsignedShort(ClassReader.java:3637) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:208) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:180) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:166) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:292) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:56) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:62) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:127) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.core.type.classreading.AbstractMetadataReaderFactory.getMetadataReader(AbstractMetadataReaderFactory.java:62) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:40) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:218) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:357) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:285) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174) ~[spring-context-7.0.9.jar:7.0.9]
+	... 16 common frames omitted
+
+2026-09-02T20:22:18.396+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:22:18.396+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:22:18.443+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:22:18.443+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:22:18.443+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:22:18.446+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 49 ms
+2026-09-02T20:22:18.455+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController': Lookup method resolution failed
+2026-09-02T20:22:18.456+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:22:18.457+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:22:18.458+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:482) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:352) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1319) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1216) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [sg.edu.ntu.spring_demo.controllers.SampleController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@73903e32]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:460) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: SampleItem
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-7.0.9.jar:7.0.9]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: SampleItem
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 30 common frames omitted
+
+2026-09-02T20:22:56.898+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:22:56.898+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:22:56.945+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:22:56.946+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:22:56.946+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:22:56.949+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 50 ms
+2026-09-02T20:22:56.959+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:22:56.981+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:22:56.982+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.092 seconds (process running for 1173.428)
+2026-09-02T20:22:56.983+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:22:58.377+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:22:58.378+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-93] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:22:58.379+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:22:58.421+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:22:58.421+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:22:58.468+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:22:58.469+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:22:58.469+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:22:58.472+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 50 ms
+2026-09-02T20:22:58.480+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:22:58.496+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:22:58.497+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.086 seconds (process running for 1174.943)
+2026-09-02T20:22:58.497+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:23:43.418+08:00  INFO 91231 --- [Demo Spring Boot Application] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-02T20:23:43.419+08:00  INFO 91231 --- [Demo Spring Boot Application] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-02T20:23:43.421+08:00  INFO 91231 --- [Demo Spring Boot Application] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-09-02T20:23:43.427+08:00 ERROR 91231 --- [Demo Spring Boot Application] [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.Error: Unresolved compilation problems: 
+	The method setId(int) is undefined for the type SampleItem
+	The method setName(String) is undefined for the type SampleItem
+	The method setPrice(double) is undefined for the type SampleItem
+	The method setDesc(String) is undefined for the type SampleItem
+] with root cause
+
+java.lang.Error: Unresolved compilation problems: 
+	The method setId(int) is undefined for the type SampleItem
+	The method setName(String) is undefined for the type SampleItem
+	The method setPrice(double) is undefined for the type SampleItem
+	The method setDesc(String) is undefined for the type SampleItem
+
+	at sg.edu.ntu.spring_demo.controllers.SampleController.getItem(SampleController.java:66) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.24.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.24.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59) ~[tomcat-embed-websocket-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-09-02T20:24:48.060+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:24:48.060+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-117] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:24:48.061+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:24:48.103+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:24:48.103+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:24:48.166+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:24:48.167+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:24:48.167+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:24:48.170+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 65 ms
+2026-09-02T20:24:48.183+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:24:48.213+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:24:48.214+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.124 seconds (process running for 1284.66)
+2026-09-02T20:24:48.214+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:24:51.610+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:24:51.612+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-121] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:24:51.613+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:24:51.649+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:24:51.649+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:24:51.709+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:24:51.710+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:24:51.710+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:24:51.713+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 63 ms
+2026-09-02T20:24:51.724+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:24:51.741+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:24:51.742+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.102 seconds (process running for 1288.188)
+2026-09-02T20:24:51.742+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:24:55.140+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:24:55.142+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-125] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:24:55.143+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:24:55.189+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:24:55.189+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:24:55.240+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:24:55.240+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:24:55.240+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:24:55.243+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 53 ms
+2026-09-02T20:24:55.247+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/controllers/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.controllers.SampleController]: Constructor threw exception
+2026-09-02T20:24:55.247+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:24:55.249+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:24:55.249+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/controllers/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.controllers.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.controllers.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Auto cannot be resolved to a type
+	The method setId(int) is undefined for the type SampleItem
+	The method setName(String) is undefined for the type SampleItem
+	The method setPrice(double) is undefined for the type SampleItem
+	The method setDesc(String) is undefined for the type SampleItem
+
+	at sg.edu.ntu.spring_demo.controllers.SampleController.<init>(SampleController.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-09-02T20:24:57.660+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:24:57.661+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:24:57.707+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:24:57.708+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:24:57.708+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:24:57.710+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 49 ms
+2026-09-02T20:24:57.721+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sampleController': Unsatisfied dependency expressed through field 'item': No qualifying bean of type 'sg.edu.ntu.spring_demo.SampleItem' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2026-09-02T20:24:57.722+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:24:57.723+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:24:57.725+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field item in sg.edu.ntu.spring_demo.controllers.SampleController required a bean of type 'sg.edu.ntu.spring_demo.SampleItem' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'sg.edu.ntu.spring_demo.SampleItem' in your configuration.
+
+2026-09-02T20:25:06.141+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:25:06.141+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:25:06.192+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:25:06.192+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:25:06.193+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:25:06.195+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 53 ms
+2026-09-02T20:25:06.201+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sampleController': Unsatisfied dependency expressed through field 'item': No qualifying bean of type 'sg.edu.ntu.spring_demo.SampleItem' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2026-09-02T20:25:06.201+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:25:06.202+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:25:06.203+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field item in sg.edu.ntu.spring_demo.controllers.SampleController required a bean of type 'sg.edu.ntu.spring_demo.SampleItem' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'sg.edu.ntu.spring_demo.SampleItem' in your configuration.
+
+2026-09-02T20:25:07.618+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:25:07.618+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:25:07.659+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:25:07.659+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:25:07.659+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:25:07.661+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 42 ms
+2026-09-02T20:25:07.679+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:25:07.709+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:25:07.710+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.098 seconds (process running for 1304.156)
+2026-09-02T20:25:07.710+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:25:09.100+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:25:09.100+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-129] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:25:09.102+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:25:09.136+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:25:09.136+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:25:09.194+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:25:09.194+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:25:09.194+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:25:09.197+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 59 ms
+2026-09-02T20:25:09.205+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:25:09.222+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:25:09.223+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.097 seconds (process running for 1305.669)
+2026-09-02T20:25:09.223+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:25:24.635+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:25:24.637+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-142] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:25:24.641+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:25:24.676+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:25:24.677+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:25:24.719+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:25:24.719+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:25:24.720+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:25:24.722+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 44 ms
+2026-09-02T20:25:24.729+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:25:24.746+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:25:24.748+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.081 seconds (process running for 1321.194)
+2026-09-02T20:25:24.749+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:25:28.145+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:25:28.146+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-146] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:25:28.147+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:25:28.238+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:25:28.238+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:25:28.281+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:25:28.281+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:25:28.281+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:25:28.284+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 45 ms
+2026-09-02T20:25:28.289+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleItem' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleItem.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+2026-09-02T20:25:28.290+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:25:28.291+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:25:28.292+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleItem' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleItem.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Identifier (" to complete MethodHeaderName
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at sg.edu.ntu.spring_demo.SampleItem.<init>(SampleItem.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-09-02T20:25:31.703+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:25:31.703+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:25:31.752+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:25:31.753+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:25:31.753+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:25:31.758+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 54 ms
+2026-09-02T20:25:31.763+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleItem' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleItem.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+2026-09-02T20:25:31.764+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:25:31.766+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:25:31.767+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleItem' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleItem.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at sg.edu.ntu.spring_demo.SampleItem.<init>(SampleItem.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-09-02T20:25:35.178+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:25:35.178+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:25:35.225+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:25:35.225+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:25:35.225+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:25:35.228+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 49 ms
+2026-09-02T20:25:35.233+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleItem' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleItem.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+2026-09-02T20:25:35.233+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:25:35.234+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:25:35.235+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleItem' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleItem.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Identifier (" to complete MethodHeaderName
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at sg.edu.ntu.spring_demo.SampleItem.<init>(SampleItem.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-09-02T20:25:37.647+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:25:37.647+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:25:37.691+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:25:37.691+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:25:37.692+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:25:37.695+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 47 ms
+2026-09-02T20:25:37.701+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleItem' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleItem.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+2026-09-02T20:25:37.702+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:25:37.703+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:25:37.704+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleItem' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleItem.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Identifier (" to complete MethodHeaderName
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at sg.edu.ntu.spring_demo.SampleItem.<init>(SampleItem.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-09-02T20:25:40.119+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:25:40.119+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:25:40.157+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:25:40.158+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:25:40.158+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:25:40.160+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 40 ms
+2026-09-02T20:25:40.164+08:00  WARN 91231 --- [Demo Spring Boot Application] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleItem' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleItem.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+2026-09-02T20:25:40.165+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-02T20:25:40.167+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-02T20:25:40.167+08:00 ERROR 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleItem' defined in file [/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleItem.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.SampleItem]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert "}" to complete ClassBody
+
+	at sg.edu.ntu.spring_demo.SampleItem.<init>(SampleItem.java:15) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-09-02T20:25:41.581+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:25:41.582+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:25:41.626+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:25:41.626+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:25:41.626+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:25:41.628+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 45 ms
+2026-09-02T20:25:41.639+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:25:41.656+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:25:41.657+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.082 seconds (process running for 1338.103)
+2026-09-02T20:25:41.657+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:25:47.071+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:25:47.072+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-150] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:25:47.073+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:25:47.111+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:25:47.111+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:25:47.178+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:25:47.179+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:25:47.179+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:25:47.181+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 69 ms
+2026-09-02T20:25:47.190+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:25:47.209+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:25:47.210+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.11 seconds (process running for 1343.656)
+2026-09-02T20:25:47.211+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:25:58.044+08:00  INFO 91231 --- [Demo Spring Boot Application] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat-14].[localhost].[/]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-02T20:25:58.044+08:00  INFO 91231 --- [Demo Spring Boot Application] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-02T20:25:58.045+08:00  INFO 91231 --- [Demo Spring Boot Application] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-09-02T20:30:18.914+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:30:18.917+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-169] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:30:18.921+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:30:18.967+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:30:18.967+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:30:19.019+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:30:19.021+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:30:19.021+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:30:19.023+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 55 ms
+2026-09-02T20:30:19.039+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:30:19.062+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:30:19.063+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.107 seconds (process running for 1615.509)
+2026-09-02T20:30:19.064+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:30:24.462+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:30:24.463+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-173] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:30:24.465+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:30:24.496+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:30:24.496+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:30:24.537+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:30:24.538+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:30:24.538+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:30:24.543+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 46 ms
+2026-09-02T20:30:24.551+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:30:24.571+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:30:24.572+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.084 seconds (process running for 1621.018)
+2026-09-02T20:30:24.572+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:30:29.973+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:30:29.973+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-177] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:30:29.975+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:30:30.034+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:30:30.035+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:30:30.089+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:30:30.089+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:30:30.089+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:30:30.092+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 56 ms
+2026-09-02T20:30:30.104+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:30:30.124+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:30:30.126+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.101 seconds (process running for 1626.572)
+2026-09-02T20:30:30.126+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:30:31.522+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:30:31.523+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-181] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:30:31.524+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:30:31.562+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:30:31.562+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:30:31.604+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:30:31.605+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:30:31.605+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:30:31.607+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 44 ms
+2026-09-02T20:30:31.614+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:30:31.632+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:30:31.633+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.079 seconds (process running for 1628.079)
+2026-09-02T20:30:31.634+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:30:33.031+08:00  INFO 91231 --- [Demo Spring Boot Application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-02T20:30:33.032+08:00  INFO 91231 --- [Demo Spring Boot Application] [Thread-185] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:30:33.034+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-02T20:30:33.082+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21 with PID 91231 (/home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo/target/classes started by hakngrow in /home/hakngrow/Projects/sctp/module3/ai-3.11-web-application-development-with-RESTful-APIs-main/spring-demo)
+2026-09-02T20:30:33.082+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-02T20:30:33.143+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-02T20:30:33.144+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-02T20:30:33.144+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-02T20:30:33.149+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 66 ms
+2026-09-02T20:30:33.167+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-09-02T20:30:33.193+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-02T20:30:33.194+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.12 seconds (process running for 1629.64)
+2026-09-02T20:30:33.195+08:00  INFO 91231 --- [Demo Spring Boot Application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-02T20:31:03.117+08:00  INFO 91231 --- [Demo Spring Boot Application] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02T20:31:03.118+08:00  INFO 91231 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
